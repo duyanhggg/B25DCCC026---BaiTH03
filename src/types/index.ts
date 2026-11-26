@@ -1,0 +1,30 @@
+export interface Rating {
+  rate: number;
+  count: number;
+}
+
+export interface Product {
+  id: number;
+  title: string;
+  price: number;
+  description: string;
+  category: string;
+  image: string;
+  rating?: Rating;
+}
+
+export interface CartItem {
+  product: Product;
+  quantity: number;
+}
+
+export interface User {
+  username: string;
+}
+
+export interface ToastMessage {
+  id: string;
+  type: 'success' | 'info' | 'error';
+  title: string;
+  message?: string;
+}
