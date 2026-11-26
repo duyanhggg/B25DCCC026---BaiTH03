@@ -101,18 +101,3 @@ npm run build
 
 ---
 
-## 5. Hướng dẫn nộp bài
-
-1. Tạo một repository mới trên GitHub với tên theo định dạng: `<mã sinh viên> - BaiTH03`
-2. Khởi tạo Git và đẩy mã nguồn lên:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: complete ShopMini application"
-   git branch -M main
-   git remote add origin <url-repository-cua-ban>
-   git push -u origin main
-   ```
-   *(File `.gitignore` đã tự động loại trừ thư mục `node_modules/` và `dist/`)*
-3. Nếu repository để ở chế độ **Private**, vào mục Settings -> Collaborators và mời thầy với username: **`anhttptit`**.
-4. Nộp link repository lên hệ thống Slink.
